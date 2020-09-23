@@ -1,0 +1,44 @@
+# Assignment 1 808x README
+
+## Directory Structure
+The assignment has the following directory structure:
+-Week2
+	-AcceleratedC++_3_5
+		-app
+		-cmake
+		-CMakeLists.txt
+		-activity_diagram.pdf
+	-AcceleratedC++_4_5
+		-app
+		-cmake
+		-CMakeLists.txt
+		-activity_diagram.pdf
+	-AcceleratedC++_4_7
+		-app
+		-cmake
+		-CMakeLists.txt
+		-activity_diagram.pdf
+	-AcceleratedC++_6_9
+		-app
+		-cmake
+		-CMakeLists.txt
+		-activity_diagram.pdf
+	-SoftwareEngineering_3_10
+		-app
+		-cmake
+		-include
+		-CMakeLists.txt
+		-activity_diagram.pdf
+	-Written_Responses.pdf
+	-README.txt
+
+## Execution steps:
+Extract the zip file to /home
+For each subdirectory under Week 2 as mentioned above, you need to follow the following steps: 
+- go to the subdirectory (for example AcceleratedC++_3_5 :  cd ~/Week2/AcceleratedC++_3_5)
+- mkdir build
+- cmake ..
+- make
+- ./app/shell-app
+
+You need to follow the same steps for all the subdirectories individually. 
